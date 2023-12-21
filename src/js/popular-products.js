@@ -20,12 +20,12 @@ document.addEventListener('DOMContentLoaded', function () {
         const card = document.createElement('div');
         card.classList.add('product-card');
 
-        card.innerHTML = `
-            <img src="${product.image}" alt="${product.title}">
-            <h2 class="product-title">${product.title}</h2>
-            <p class="product-category">${product.category}</p>
-            <p class="product-details">Size: ${product.size}</p>
-            <p class="product-popularity">Popularity: ${product.popularity}</p>
+        card.innerHTML = `<div class="popular-pruducts-img"><img src="${product.image}" alt="${product.title}"></div>
+            
+            <h2 class="popular-pruducts-title">${product.title}</h2>
+            <p class="popular-pruducts-category">${product.category}</p>
+            <p class="popular-pruducts-details">Size: ${product.size}</p>
+            <p class="popular-pruducts-popularity">Popularity: ${product.popularity}</p>
             <button class="add-to-cart-btn" onclick="addToCart(${product.id})">&#128722;</button>
         `;
 

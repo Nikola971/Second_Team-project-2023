@@ -7,7 +7,7 @@
 
 @import url('./reset.css');
 @import url('./variables.css');
-
+/* @import url('./popular-pruducts.css'); */
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
